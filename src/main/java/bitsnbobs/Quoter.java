@@ -8,5 +8,7 @@ public class Quoter {
 
     public void handleRequest(ByteBuffer buffer, StringWriter result) {
         // do something with pricer
+        // hint: StandardCharsets.UTF_8.decode(byteBuffer).toString();
+
     }
 }
